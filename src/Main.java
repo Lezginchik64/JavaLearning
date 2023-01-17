@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        int a = 12;
+        int b = 12;
+        int c = a + b;
 
     /* System.out.println("Введи мне два числа и я посчитаю их сумму!");
         System.out.println("__________________________________________");
