@@ -3,9 +3,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int a = 12;
-        int b = 12;
-        int c = a + b;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.println("* ");
+            }
+            System.out.println();
+        }
 
     /* System.out.println("Введи мне два числа и я посчитаю их сумму!");
         System.out.println("__________________________________________");
